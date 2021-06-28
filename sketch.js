@@ -29,10 +29,7 @@ function draw(){
 
     plane.display();
     hammer.display();
-    rubber.display("darkblue");
-    for(var h=0; h<rubber1.length; h++){
-    rubber1[h].display("brown");
-    }
+    rubber.display();
   iron.display()
 
     
