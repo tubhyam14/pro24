@@ -15,9 +15,7 @@ function setup(){
     plane = new Plane(600,height,1200,20);
     hammer = new Hammer (10,100);
     rubber = new Rubber (350,100,30);
-    for(var h=1; h<=10; h++){
-        rubber1.push(new Rubber (200,100,5))
-    }
+    
     iron = new Iron (600,200,50,50)
   
 
