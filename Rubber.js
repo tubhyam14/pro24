@@ -20,10 +20,10 @@ var rubberpos=this.body.position;
 	 
 	 
 push()
-translate(rubberpos.x, rubberpos.y);
-strokeWeight(4);
-stroke("black");
-fill('blue');
+translate(rubberpos.x, rubberpos.y)
+strokeWeight(4)
+stroke('black')
+fill('blue')
 			
 ellipseMode (RADIUS)
 ellipse(0,0,this.r)
