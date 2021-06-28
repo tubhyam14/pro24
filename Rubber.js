@@ -17,11 +17,13 @@ var options={
 	
 var rubberpos=this.body.position;
 
+	 
+	 
 push()
 translate(rubberpos.x, rubberpos.y);
 strokeWeight(4);
 stroke("black");
-fill("green");
+fill(green);
 			
 ellipseMode (RADIUS)
 ellipse(0,0,this.r)
