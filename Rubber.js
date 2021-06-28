@@ -21,7 +21,7 @@ push()
 translate(rubberpos.x, rubberpos.y);
 strokeWeight(4);
 stroke("black");
-fill(color);
+fill("green");
 			
 ellipseMode (RADIUS)
 ellipse(0,0,this.r)
